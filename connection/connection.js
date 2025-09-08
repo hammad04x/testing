@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const connection = mysql.createPool({
-    host: 'sheetalsweets.iqravoice.com', // live host
+    host: '193.203.184.228', // live host
   user: 'u543309113_sheetal',
   password: 'Sheetalsweets@2025',
   database: 'u543309113_hello_world',
