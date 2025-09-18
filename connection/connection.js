@@ -7,7 +7,7 @@ const connection = mysql.createPool({
   password: 'Sheetalsweets@2025',
   database: 'u543309113_hello_world',
   waitForConnections: true, // Wait for a connection if all are in use
-  connectionLimit: 10,      // Maximum number of connections in the pool
+  connectionLimit: 11,      // Maximum number of connections in the pool
   queueLimit: 0, 
 });
 
