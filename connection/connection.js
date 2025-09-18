@@ -9,6 +9,7 @@ const connection = mysql.createPool({
   waitForConnections: true, // Wait for a connection if all are in use
   connectionLimit: 10,      // Maximum number of connections in the pool
   queueLimit: 0, 
+    port:3306
 });
 
 // Optional: Test the pool by getting a connection
