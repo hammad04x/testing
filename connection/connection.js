@@ -2,12 +2,12 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const connection = mysql.createPool({
-    host: '193.203.184.228', // live host
+    host: 'srv1874.hstgr.io', // live host
   user: 'u543309113_sheetal',
   password: 'Sheetalsweets@2025',
   database: 'u543309113_hello_world',
   waitForConnections: true, // Wait for a connection if all are in use
-  connectionLimit: 11,      // Maximum number of connections in the pool
+  connectionLimit: 10,      // Maximum number of connections in the pool
   queueLimit: 0, 
 });
 
